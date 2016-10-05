@@ -8,6 +8,8 @@ goto check_admin
 		echo Success: Administrator rights confirmed.
 	) else (
 		echo Failure: No administrator rights.
+		echo Run this bat as administrator.
+		pause
 	)
 	
 goto delete
